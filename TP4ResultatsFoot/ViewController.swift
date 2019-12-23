@@ -8,7 +8,7 @@
 
 import UIKit
 
-//TODO:: prevent screen to rotate
+//TODO:: Gestion de la connexion internet
 
 
 class ViewController: UIViewController, UITableViewDataSource {
@@ -22,6 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Résultats des matchs"
+        
         self.setDataFromAPIToJSON()
         tableView = UITableView(frame: view.bounds)
         tableView.dataSource = self
