@@ -14,6 +14,7 @@
 		B10D33FD2396710800207E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10D33FC2396710800207E89 /* Assets.xcassets */; };
 		B10D34002396710800207E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10D33FE2396710800207E89 /* LaunchScreen.storyboard */; };
 		B10D340C239671A300207E89 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10D340B239671A300207E89 /* Cell.swift */; };
+		B1EE84D223AFD3F800E3D065 /* ImageDownloaderCachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EE84D123AFD3F800E3D065 /* ImageDownloaderCachable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B10D33FF2396710800207E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B10D34012396710800207E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B10D340B239671A300207E89 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		B1EE84D123AFD3F800E3D065 /* ImageDownloaderCachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderCachable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				B10D33FE2396710800207E89 /* LaunchScreen.storyboard */,
 				B10D34012396710800207E89 /* Info.plist */,
 				B10D340B239671A300207E89 /* Cell.swift */,
+				B1EE84D123AFD3F800E3D065 /* ImageDownloaderCachable.swift */,
 			);
 			path = TP4ResultatsFoot;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B10D33F82396710300207E89 /* ViewController.swift in Sources */,
+				B1EE84D223AFD3F800E3D065 /* ImageDownloaderCachable.swift in Sources */,
 				B10D340C239671A300207E89 /* Cell.swift in Sources */,
 				B10D33F42396710300207E89 /* AppDelegate.swift in Sources */,
 				B10D33F62396710300207E89 /* SceneDelegate.swift in Sources */,

@@ -91,7 +91,7 @@ class Cell : UITableViewCell {
         let metrics = ["padding": 10, "scoreWidth": scoreWidth]
         
         NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "H:|-5-[dateLabel]|", options: [], metrics: metrics, views: labels))
-        NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[domLogo(==extLogo)]-[domLabel(==100)]-[score(==scoreWidth)]-[extLabel(==domLabel)]-[extLogo(==domLogo)]-|", options: [.alignAllCenterY], metrics: metrics, views: labels))
+        NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[domLogo(==40)]-[domLabel(==100)]-[score(==scoreWidth)]-[extLabel(==domLabel)]-[extLogo(==domLogo)]-|", options: [.alignAllCenterY], metrics: metrics, views: labels))
         NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "V:|-25-[score]-|", options: [], metrics: metrics, views: labels))
         NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "V:|-25-[extLabel]-|", options: [], metrics: metrics, views: labels))
         NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "V:|[dateLabel]-[domLabel]-|", options: [], metrics: metrics, views: labels))
